@@ -49,22 +49,7 @@
         <script src="js/general.js" type="text/javascript"> </script>
         
     </head>
-
-    <!--Google Translate-->
-    <div id="google_translate_element"></div>
-        
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement(
-            {pageLanguage: 'en'},
-            'google_translate_element'
-            );
-        }
-    </script>
-
-        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <!--End of Google Translate-->
-    
+ 
     <body id="home">
        
        <!-- Back to Top Button --> 
@@ -117,7 +102,10 @@
                    <div class="title">
                     <P><P><P><P><P><P><P></P>
                        <h1>Congratulation on your registration, will contact you soon</h1>
-                       <span>...</span>
+                       <span></span>
+                       <div class="w3-third w3-container w3-padding-16 " >
+                        <img src="images/tick.png" style="width: 10%;">
+                    </div>   
                    </div>
                </div>
                
@@ -126,9 +114,7 @@
      
             <div class="w3-row">
                 
-                <div class="w3-third w3-container w3-padding-16 " >
-                     <img src="https://ccw.caritas.org.hk/images/png/donation_05b.png" style="width: 100%;" alt="Lights" >
-                </div>               
+                           
             </div>  
             <p>&nbsp;</p> 
         </div>
@@ -144,14 +130,32 @@
                      <li><a href="https://t.me/E_Share_Bot"><img src="images/Telegram_logo.png" alt="HTML5 Icon" width="15" height="15"><span>Telegram<span></a></li>              
                 </ul>
             </div>
-            <div class="large-6 medium-12 column">
+            <div id="google_translate_element" class="large-4 medium-12 column"></div>
+            <div class="large-4 medium-12 column">
                 <div class="copyright">
                     © Group A05, A06 2022
-                </div>   
+                </div>
             </div>
         </div>
     </footer>
     <!-- End of Footer -->
     
+
+    <!--Google Translate-->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+            );
+        }
+    </script>
+
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+        </script>
+            <!--End of Google Translate-->
+    </body>
+</html>
+
 
     

@@ -50,21 +50,6 @@
         
     </head>
 
-    <!--Google Translate-->
-    <div id="google_translate_element"></div>
-        
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement(
-            {pageLanguage: 'en'},
-            'google_translate_element'
-            );
-        }
-    </script>
-
-        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <!--End of Google Translate-->
-    
     <body id="home">
        
        <!-- Back to Top Button --> 
@@ -138,7 +123,7 @@
          <input
                    type="hidden"
                    name="success_action_redirect"
-                   value="https://storage.googleapis.com/hackathona06/FYP/Registration%20Correct.html">
+                   value="http://35.193.39.40/Registration%20Correct.html">
 
                         <div class="large-12 column">
            <input
@@ -178,14 +163,27 @@
                      <li><a href="https://t.me/E_Share_Bot"><img src="images/Telegram_logo.png" alt="HTML5 Icon" width="15" height="15"><span>Telegram<span></a></li>              
                 </ul>
             </div>
-            <div class="large-6 medium-12 column">
+            <div id="google_translate_element" class="large-4 medium-12 column"></div>
+            <div class="large-4 medium-12 column">
                 <div class="copyright">
                     © Group A05, A06 2022
-                </div>   
+                </div>
             </div>
         </div>
     </footer>
     <!-- End of Footer -->
     
+    <!--Google Translate-->  
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+            );
+        }
+    </script>
+
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!--End of Google Translate-->
 
     
